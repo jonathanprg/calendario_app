@@ -21,19 +21,19 @@
     "strict": true,
     "target": "esnext",
     "paths": {
-      "@calendar/navigation": [
+      "./navigation": [
         "./src/navigation"
       ],
-      "@calendar/screens": [
+      "./screens": [
         "./src/screens"
       ],
-      "@calendar/store": [
+      "./store": [
         "./src/store"
       ],
-      "@calendar/components": [
+      "./components": [
         "./src/components"
       ],
-      "@calendar/hooks": [
+      "./hooks": [
         "./src/hooks"
       ]
     }

@@ -4,8 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { nativeStackConfig } from './nativeStackConfig';
 
 import Routes from './routes';
-import { CreateTask, Home } from '@calendar/screens';
-import { useStore } from '@calendar/store';
+import { CreateTask, Home } from './screens';
+import { useStore } from './store';
 
 const Stack = createStackNavigator();
 

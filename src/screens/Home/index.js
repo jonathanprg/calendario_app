@@ -18,8 +18,8 @@ import * as Localization from 'expo-localization';
 
 import CalendarStrip from 'react-native-calendar-strip';
 import DateTimePicker from 'react-native-modal-datetime-picker';
-import { Task } from '@calendar/components';
-import { useStore } from '@calendar/store';
+import { Task } from './components';
+import { useStore } from './store';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const styles = StyleSheet.create({

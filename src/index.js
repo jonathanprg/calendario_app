@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Platform, StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { AppWrapper } from '@calendar/components';
-import { CalendarNavigation } from '@calendar/navigation';
+import { AppWrapper } from './components';
+import { CalendarNavigation } from './navigation';
 import * as Calendar from 'expo-calendar';
 
 class App extends Component {

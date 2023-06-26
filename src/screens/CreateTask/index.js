@@ -17,9 +17,9 @@ import * as Calendar from 'expo-calendar';
 import * as Localization from 'expo-localization';
 import DateTimePicker from 'react-native-modal-datetime-picker';
 import { v4 as uuidv4 } from 'uuid';
-import { useKeyboardHeight } from '@calendar/hooks';
-import { useStore } from '@calendar/store';
-import { Routes } from '@calendar/navigation';
+import { useKeyboardHeight } from './hooks';
+import { useStore } from './store';
+import { Routes } from './navigation';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const { width: vw } = Dimensions.get('window');

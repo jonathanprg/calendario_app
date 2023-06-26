@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { useComponent } from '@calendar/hooks';
+import { useComponent } from './hooks';
 import { View } from 'react-native';
-import { useStore } from '@calendar/store';
+import { useStore } from './store';
 
 const MainView = ({ children, backgroundColor = '#FFFFFF', ...rest }) => {
   const init = useStore((store) => store.init);
